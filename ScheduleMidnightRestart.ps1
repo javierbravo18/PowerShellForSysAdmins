@@ -1,3 +1,5 @@
+# Schedules midnight restart using Task Scheduler.
+
 #create action
 $taskAction = New-ScheduledTaskAction `
     -Execute "shutdown" `
