@@ -1,4 +1,5 @@
 # PowerShell DSC script to be used in Azure. Used to ensure the Registry Key values specified are persistent in the machines to which this policy is applied to in Azure.
+#Add Registry Key values as needed
 
 Configuration RegistryKeyValuesDSC
 {
