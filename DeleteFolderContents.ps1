@@ -9,7 +9,7 @@ $year = (Get-Date).Year
 $deleteDate = (Get-Date).AddDays(-30)
 
 
-foreach($i in $ctxProfiles)
+foreach($i in $folderDelete)
 {
 
     if($i.LastWriteTime -le $deleteDate)
