@@ -1,3 +1,5 @@
+# This script is for deleting the contents of a folder
+
 #For folder whose content you want to delete, enter folder path like so C:\FakeFolder
 $folderPath = <EnterFolderPath>
 $folderDelete = Get-ChildItem $folderPath
